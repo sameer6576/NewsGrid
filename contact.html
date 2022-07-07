@@ -44,87 +44,34 @@
         <ul>
           <li><a href="index.html" class="">Home</a></li>
           <li><a href="about.html" class="">About</a></li>
-          <li><a href="contact.html" class="">Contact</a></li>
+          <li><a href="contact.html" class="current">Contact</a></li>
+
         </ul>
       </div>
     </nav>
+ <section id="contact-form" class="py=3">
+  <div class="container">
+   <h1 class="l-heading"><span class="text-primary">Contact </span>Us</h1>
+   <p>Please fill out our form to reach us</p>
+   <form action="process.php">
+    <div class="form-group">
+     <label for="name">Name</label>
+   <input type="text" name="name" id="name">
+  </div>
+  <div class="form-group">
+   <label for="email"></label>Email</label>
+  <input type="email" name="email" id="email">
+ </div>
+  <div class="form-group">
+   <label for="message"></label>Message</label>
+   <textarea name="message" id="message"></textarea>
+ </div>
+ <button type="submit" class="btn">Submit</button>
+ </form>
+   </div>
+ </section>
 
-    <section id="article">
-      <div class="container">
-        <div class="page-container">
-          <article class="card">
-            <img src="img/articles/sports3.jpg" alt="" />
-            <h1 class="lheading">
-              India vs England, 5th Test: India failed to negotiate short ..
-              Read more at:
-            </h1>
-            <div class="meta">
-              <small>
-                <i class="fas fa-user"></i> Written By Sameer Ahmed July 5,2022
-              </small>
-              <div class="category category-sports">Sports</div>
-            </div>
-            <p>
-              <strong>IND vs ENG 5th Test Day 4 Highlights:</strong> England
-              have their nose ahead after reaching 259 for 3 in pursuit of 378
-              at stumps on the fourth day of the rescheduled fifth Test match
-              against India here on Monday. Jonny Bairstow (72 batting) and Joe
-              Root (76 batting) were at the crease having added 150 runs for the
-              fourth wicket stand after Alex Lees (56) and Zak Crawley (46)
-              added 107 runs for the opening stand. Skipper Jasprit Bumrah got
-              two wickets as England go into final day needing only 119 runs.
-              Earlier, India were bowled out for 245 in their second innings,
-              riding on half-centuries from Cheteshwar Pujara (66) and Rishabh
-              Pant (57).
-            </p>
-            <br />
-            <p>
-              India vs England 5th Test: England 259/3 at Stumps They need to
-              score 119 runs on Day 5 to win this game. In any other situation,
-              that is no easy target in a Test match but over here, it looks
-              like a piece of cake for the hosts. Partnership between Root and
-              Bairstow is on 150 off 197 balls. Root has scored 76 off 110 balls
-              while Bairstow is on 73 off 89. India will have early wickets and
-              nothing else in mind whey they walk out tomorrow. It will be the
-              difference between winning and drawing this series.
-            </p>
-          </article>
-          <aside id="categories" class="card">
-            <h2>Catergories</h2>
-            <ul class="list">
-              <li>
-                <a href="#"><i class="fas fa-chevron-right"></i> Sports</a>
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="fas fa-chevron-right"></i> Entertainment</a
-                >
-              </li>
-              <li>
-                <a href="#"><i class="fas fa-chevron-right"></i> Technology</a>
-              </li>
-              <li>
-                <a href="#"><i class="fas fa-chevron-right"></i> Fashion</a>
-              </li>
-              <li>
-                <a href="#"><i class="fas fa-chevron-right"></i> Shopping</a>
-              </li>
-            </ul>
-          </aside>
-          <aside class="card bg-secondary">
-            <h2>Join Our Newsletter</h2>
-            <p>
-              To receive daily emails and be up to date to every current affairs
-              and news. Sign up to our exclusive newsletter today!
-            </p>
-            <a href="#" class="btn btn-dark btn-block">Join Now</a>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-
-     <!-- Footer  -->
+    <!-- Footer  -->
     <footer id="main-footer" class="py-2">
       <div class="container footer-container">
         <div>
@@ -144,6 +91,7 @@
           </p>
           <form name="contact" method="POST" data-netlify="true">
             <input type="email" name="email" placeholder="Enter Email" />
+
             <input type="submit" value="Subscribe" class="btn btn-primary" />
           </form>
         </div>
